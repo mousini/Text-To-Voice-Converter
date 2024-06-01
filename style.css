@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing:border-box;
+}
+.hero{
+    width:100%;
+    min-height:100vh;
+    background:linear-gradient(135deg,pink,rgb(230, 60, 89));
+    display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+.text{
+    font-size:45px;
+    font-weight:500;
+    margin-top: -50px;
+    margin-bottom:50px;
+    color:grey;
+}
+.converter{
+    color:#ff2963;
+}
+.hero textarea{
+    
+        width: 600px;
+        height:250px;
+        background:linear-gradient(50deg,white,rgb(147, 175, 175));
+        color:black;
+        font-size:15px;
+        border:0;
+        outline:0;
+    padding:20px;
+    border-radius:10px;
+    resize:none;
+    margin-bottom:30px;
+    }
+.hero textarea::placeholder{
+    font-size:16px;
+    color:lightslategrey;
+
+}
+.row{
+    width:600px;
+    display:flex;
+    align-items: center;
+    gap:20px;
+}
+.row button{
+    background:linear-gradient(lightslategrey,#ff2963);
+    color:white;
+    font-size:16px;
+    padding:10px 30px;
+    border-radius:35px;
+    border:0;
+    outline:o;
+    cursor:pointer;
+}
